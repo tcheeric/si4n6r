@@ -12,7 +12,6 @@ import java.util.logging.Level;
 
 @Log
 public class Daemon extends Thread {
-
     private final SignerService service;
 
     private Daemon() {
