@@ -26,7 +26,8 @@ NOTE: The app and the signer are expected to run on different Virtual Machines.
 The software is written in Java and relies on the [nostr-java](https://github.com/tcheeric/nostr-java/tree/0.3-SNAPSHOT)
 library of the nostr protocol. It is currently in pre-alpha stage, it's still _untested_, and is expected to change
 significantly in the near future.
-It implements:
+
+The most important classes are:
 
 - A [Signer](https://github.com/tcheeric/si4n6r-lib/blob/1.0-SNAPSHOT/si4n6r-signer/src/main/java/nostr/si4n6r/signer/Signer.java)
 and an [Application](https://github.com/tcheeric/shibboleth/blob/1.0-SNAPSHOT/src/main/java/nostr/si4n6r/shibboleth/Application.java)classes, with their own identities (public and private key pairs) for communication.
