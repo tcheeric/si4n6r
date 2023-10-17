@@ -14,15 +14,14 @@ The software is composed of four parts:
 
 - The [si4n6r-lib](https://github.com/tcheeric/si4n6r-lib/tree/1.0-SNAPSHOT) library that implements the NIP-46
   standard.
-- The [si4n6r](https://github.com/tcheeric/si4n6r/tree/1.0-SNAPSHOT) binary that implements the NIP-46 standard and
-  exposes the signer as a websocket API.
-- The [shibboleth](https://github.com/tcheeric/shibboleth/tree/1.0-SNAPSHOT) library that implements the NIP-46 app
+- The [si4n6r](https://github.com/tcheeric/si4n6r/tree/1.0-SNAPSHOT) the corresponding binary.
+- The [shibboleth](https://github.com/tcheeric/shibboleth/tree/1.0-SNAPSHOT) app library that implements the NIP-46 app
   standard to connect to a signer through a websocket API.
 - The [demo-nip46-app](https://github.com/tcheeric/demo-nip46-app/tree/1.0-SNAPSHOT) binary, or any other NIP-46
-  compliant app of your choice, that uses the [Shibboleth]((https://github.com/tcheeric/shibboleth/tree/1.0-SNAPSHOT)
-  library to connect to a signer through a websocket API.
+  compliant app of your choice, that uses the [Shibboleth](https://github.com/tcheeric/shibboleth/tree/1.0-SNAPSHOT)
+  app library to connect to a signer through a websocket API.
 
-*The app and the signer are expected to run on different Virtual Machines.*
+NOTE: The app and the signer are expected to run on different Virtual Machines.
 
 The software is written in Java and relies on the [nostr-java](https://github.com/tcheeric/nostr-java/tree/0.3-SNAPSHOT)
 library of the nostr protocol. It is currently in pre-alpha stage, it's still _untested_, and is expected to change
