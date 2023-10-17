@@ -29,24 +29,12 @@ library of the nostr protocol. It is currently in pre-alpha stage, it's still _u
 significantly in the near future.
 It implements:
 
--
-A [Signer](https://github.com/tcheeric/si4n6r-lib/blob/1.0-SNAPSHOT/si4n6r-signer/src/main/java/nostr/si4n6r/signer/Signer.java)
-and
-an [Application](https://github.com/tcheeric/shibboleth/blob/1.0-SNAPSHOT/src/main/java/nostr/si4n6r/shibboleth/Application.java)
-classes, with their own identities (public and private key pairs) for communication.
--
-A [SignerService](https://github.com/tcheeric/si4n6r-lib/blob/1.0-SNAPSHOT/si4n6r-signer/src/main/java/nostr/si4n6r/signer/SignerService.java)
-to submit the connect request to the signer, handle the incoming requests from the app, and send the
-  responses back to the app.
--
-An [ApplicationService](https://github.com/tcheeric/shibboleth/blob/1.0-SNAPSHOT/src/main/java/nostr/si4n6r/shibboleth/AppService.java)
-to submit requests to the signer and handle the incoming responses from the signer.
--
-A [SignerCommandHandler](https://github.com/tcheeric/si4n6r-lib/blob/1.0-SNAPSHOT/si4n6r-signer/src/main/java/nostr/si4n6r/signer/provider/SignerCommandHandler.java)
-and
-an [ApplicationCommandHandler](https://github.com/tcheeric/shibboleth/blob/1.0-SNAPSHOT/src/main/java/nostr/si4n6r/shibboleth/provider/AppCommandHandler.java)
-to handle the incoming events from the app and the signer
-  respectively.
+-A [Signer](https://github.com/tcheeric/si4n6r-lib/blob/1.0-SNAPSHOT/si4n6r-signer/src/main/java/nostr/si4n6r/signer/Signer.java)
+and an [Application](https://github.com/tcheeric/shibboleth/blob/1.0-SNAPSHOT/src/main/java/nostr/si4n6r/shibboleth/Application.java)classes, with their own identities (public and private key pairs) for communication.
+- A [SignerService](https://github.com/tcheeric/si4n6r-lib/blob/1.0-SNAPSHOT/si4n6r-signer/src/main/java/nostr/si4n6r/signer/SignerService.java)
+to submit the connect request to the signer, handle the incoming requests from the app, and send the  responses back to the app.
+- An [ApplicationService](https://github.com/tcheeric/shibboleth/blob/1.0-SNAPSHOT/src/main/java/nostr/si4n6r/shibboleth/AppService.java) to submit requests to the signer and handle the incoming responses from the signer.
+- A [SignerCommandHandler](https://github.com/tcheeric/si4n6r-lib/blob/1.0-SNAPSHOT/si4n6r-signer/src/main/java/nostr/si4n6r/signer/provider/SignerCommandHandler.java) and an [ApplicationCommandHandler](https://github.com/tcheeric/shibboleth/blob/1.0-SNAPSHOT/src/main/java/nostr/si4n6r/shibboleth/provider/AppCommandHandler.java) to handle the incoming events from the app and the signer respectively.
 
 ## Workflow
 
