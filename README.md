@@ -14,11 +14,11 @@ The software is composed of four parts:
 
 - The [si4n6r-lib](https://github.com/tcheeric/si4n6r-lib/tree/1.0-SNAPSHOT) library that implements the NIP-46
   standard.
-- The [si4n6r](https://github.com/tcheeric/si4n6r/tree/1.0-SNAPSHOT) the corresponding binary.
+- The [si4n6r](https://github.com/tcheeric/si4n6r/tree/1.0-SNAPSHOT), the signer binary.
 - The [shibboleth](https://github.com/tcheeric/shibboleth/tree/1.0-SNAPSHOT) app library that implements the NIP-46 app
   standard to connect to a signer through a websocket API.
-- The [demo-nip46-app](https://github.com/tcheeric/demo-nip46-app/tree/1.0-SNAPSHOT) binary, or any other NIP-46
-  compliant app of your choice, that uses the [Shibboleth](https://github.com/tcheeric/shibboleth/tree/1.0-SNAPSHOT)
+- The [demo-nip46-app](https://github.com/tcheeric/demo-nip46-app/tree/1.0-SNAPSHOT) binary, a sample NIP-46
+  compliant app, that uses the [Shibboleth](https://github.com/tcheeric/shibboleth/tree/1.0-SNAPSHOT)
   app library to connect to a signer through a websocket API.
 
 NOTE: The app and the signer are expected to run on different Virtual Machines.
