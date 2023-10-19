@@ -83,8 +83,10 @@ privateKey=519672a62831011....5b3998a1d65366aff97988
 ## TODO
 
 1. Session Management (done, but untested)
-2. Implement additional NIP-46 methods
-3. Private key management and storage
-4. Persistence
+2. Persistence (??)
+3. Interactivity
+4. Testing
 5. Improve logging
-6. Testing
+6. Implement additional NIP-46 methods
+7. Private key management and storage
+
