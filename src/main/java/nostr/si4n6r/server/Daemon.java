@@ -21,7 +21,6 @@ public class Daemon extends Thread {
 
     @Override
     public void run() {
-        var connections = this.service.getConnectionManager().getConnections();
         filter();
     }
 
