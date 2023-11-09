@@ -63,7 +63,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>nostr.si4n6r.server.Daemon</mainClass>
+                            <mainClass>nostr.si4n6r.server.Si4n6rd</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
