@@ -11,10 +11,10 @@ import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
 @Log
-public class Daemon extends Thread {
+public class Si4n6rd extends Thread {
     private final SignerService service;
 
-    private Daemon() {
+    private Si4n6rd() {
         this.service = SignerService.getInstance();
         this.setDaemon(true);
     }
@@ -25,14 +25,14 @@ public class Daemon extends Thread {
     }
 
     public static void main(String[] args) {
-        Thread daemon = new Daemon();
+        Thread daemon = new Si4n6rd();
         daemon.setDaemon(true);
         daemon.setName("si4n6rd-" + System.currentTimeMillis());
 
-        log.log(Level.INFO, "Starting the si4n6r daemon service...");
+        log.log(Level.INFO, "Starting the si4n6rd service...");
         daemon.start();
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            log.log(Level.INFO, "Shutting down the si4n6r daemon service...");
+            log.log(Level.INFO, "Shutting down the si4n6rd service...");
         }));
     }
 
